@@ -243,7 +243,7 @@ body.servicesBody{
 	margin: 15px 35px 0 0;
 }
 
-/* ######## mobile ######## */
+/* ######## Mobile ######## */
 
 @media screen and (max-width: 600px){
 	
@@ -284,5 +284,29 @@ body.servicesBody{
 
 	img.codeSnipet{
 		display: none;
+	}
+
+	/* ######## Main-mobile ######## */
+
+	.topText{
+		flex-wrap: wrap;
+	}
+
+	.bottomText{
+		flex-wrap: wrap;
+	}
+
+	.featuresPadding, .aboutPadding,
+	.servicesPadding, .productPadding,
+	.visionPadding{
+		padding: 15px;
+	}
+
+	.productPadding{
+		margin: 0;
+	}
+
+	footer{
+		padding: 15px;
 	}
 }
